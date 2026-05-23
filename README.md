@@ -1,3 +1,9 @@
+## 👤 Author
+- **Sangram Mathews**
+- **Ayman Fahim**
+- **Darius Taule**
+# John Jay College of Criminal Justice
+
 # 🛡️ AI-Capstone-Threat-Intel
 
 A threat intelligence automation and visualization project that collects cybersecurity threat data from multiple sources, stores it in Airtable, enriches it with IOCs, CVEs, summaries, and relevance scores, then displays the results in a Streamlit dashboard for security triage and analysis.
@@ -28,35 +34,6 @@ This makes the dashboard useful for:
 - Incident response preparation
 - Security operations prioritization
 
-## 🧠 Key Features
-
-- **Executive Summary**
-  - Displays total threats, critical threats, high severity threats, unique CVEs, total IOCs, and average relevance score.
-
-- **Analyst Priority Queue**
-  - Ranks threats by priority score, severity, and relevance so analysts can focus on the most urgent risks first.
-
-- **Threat Analytics**
-  - Visualizes severity distribution, top attack types, severity by source, and affected software.
-
-- **Threat Origin Map**
-  - Maps IP-based indicators to show the geographic origin of suspicious infrastructure.
-
-- **Indicators of Compromise**
-  - Extracts and displays IP addresses, domains, URLs, and file hashes.
-
-- **Threat Table**
-  - Provides a complete searchable and filterable table of actionable threats.
-
-- **Deep Dive View**
-  - Allows analysts to select a specific threat and review its severity, source, attack type, affected software, summary, recommended actions, and related IOCs.
-
-- **Alert Preview**
-  - Previews critical and high-priority threats that could be sent through Slack or email notifications.
-
-- **Export Options**
-  - Supports exporting filtered threat data as CSV, JSON, IOC context CSV, and STIX-like indicator JSON.
-
 ## 🔗 Data Sources
 
 The dashboard uses threat intelligence collected from multiple public sources, including:
@@ -85,18 +62,32 @@ The project follows a threat intelligence pipeline:
 
 ## 📊 Dashboard Highlights
 
-The dashboard currently provides visibility into:
+- **Executive Summary**
+  - Displays total threats, critical threats, high severity threats, unique CVEs, total IOCs, and average relevance score.
 
-- Total collected threats
-- Critical and high severity threats
-- Unique CVEs
-- Extracted indicators of compromise
-- Top attack types
-- Affected software
-- Threat source distribution
-- IP geolocation data
-- Analyst priority scoring
-- Recommended response actions
+- **Analyst Priority Queue**
+  - Ranks threats by priority score, severity, and relevance so analysts can focus on the most urgent risks first.
+
+- **Threat Analytics**
+  - Visualizes severity distribution, top attack types, severity by source, and affected software.
+
+- **Threat Origin Map**
+  - Maps IP-based indicators to show the geographic origin of suspicious infrastructure.
+
+- **Indicators of Compromise**
+  - Extracts and displays IP addresses, domains, URLs, and file hashes.
+
+- **Threat Table**
+  - Provides a complete searchable and filterable table of actionable threats.
+
+- **Deep Dive View**
+  - Allows analysts to select a specific threat and review its severity, source, attack type, affected software, summary, recommended actions, and related IOCs.
+
+- **Alert Preview**
+  - Previews critical and high-priority threats that could be sent through Slack or email notifications.
+
+- **Export Options**
+  - Supports exporting filtered threat data as CSV, JSON, IOC context CSV, and STIX-like indicator JSON.
 
 ## 🎥 Project Demo
 
